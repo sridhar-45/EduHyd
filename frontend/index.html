@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Institutes in Hyderabad - Find Your Perfect Course</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-graduation-cap"></i> EduHyd
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Institutes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <a href="#" class="btn btn-outline-light">Login</a>
+          <a href="#" class="btn btn-light">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <div class="hero-content text-center">
+            <h1 class="hero-title">Find the Best Institutes in Hyderabad</h1>
+            <p class="hero-subtitle">Discover top-rated coaching centers, colleges, and training institutes across the city</p>
+          </div>
+          
+          <div class="search-container">
+            <div class="search-tabs">
+              <button class="search-tab active">All Courses</button>
+              <button class="search-tab">Engineering</button>
+              <button class="search-tab">Medical</button>
+              <button class="search-tab">IT & Software</button>
+            </div>
+            <form class="search-form">
+              <div class="form-group">
+                <label>What do you want to learn?</label>
+                <input type="text" class="form-control" placeholder="e.g., Web Development, NEET, IIT-JEE">
+              </div>
+              <div class="form-group">
+                <label>Location</label>
+                <select class="form-select">
+                  <option>All Hyderabad</option>
+                  <option>Ameerpet</option>
+                  <option>Kukatpally</option>
+                  <option>Madhapur</option>
+                  <option>Dilsukhnagar</option>
+                  <option>Secunderabad</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Mode</label>
+                <select class="form-select">
+                  <option>All</option>
+                  <option>Offline</option>
+                  <option>Online</option>
+                  <option>Hybrid</option>
+                </select>
+              </div>
+              <button type="submit" class="btn-search">
+                <i class="fas fa-search"></i> Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories-section">
+    <div class="container">
+      <h2 class="section-title">Popular Categories</h2>
+      <p class="section-subtitle">Browse institutes by categories</p>
+      
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="category-title">IT & Software</h3>
+            <p class="category-count">150+ Institutes</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-stethoscope"></i>
+            </div>
+            <h3 class="category-title">Medical</h3>
+            <p class="category-count">80+ Institutes</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3 class="category-title">Engineering</h3>
+            <p class="category-count">120+ Institutes</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-language"></i>
+            </div>
+            <h3 class="category-title">Languages</h3>
+            <p class="category-count">60+ Institutes</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <h3 class="category-title">Competitive Exams</h3>
+            <p class="category-count">90+ Institutes</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3 class="category-title">Design</h3>
+            <p class="category-count">45+ Institutes</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3 class="category-title">Management</h3>
+            <p class="category-count">70+ Institutes</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-music"></i>
+            </div>
+            <h3 class="category-title">Arts & Music</h3>
+            <p class="category-count">35+ Institutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Institutes -->
+  <section class="featured-section">
+    <div class="container">
+      <h2 class="section-title">Featured Institutes</h2>
+      <p class="section-subtitle">Top-rated institutes recommended for you</p>
+      
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="institute-card">
+            <div class="institute-image">
+              <i class="fas fa-university"></i>
+              <span class="institute-badge">Featured</span>
+            </div>
+            <div class="institute-content">
+              <h3 class="institute-name">Sri Chaitanya Academy</h3>
+              <p class="institute-location">
+                <i class="fas fa-map-marker-alt"></i> Ameerpet, Hyderabad
+              </p>
+              <div class="institute-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.8 (2.5k reviews)</span>
+              </div>
+              <div class="institute-tags">
+                <span class="tag">IIT-JEE</span>
+                <span class="tag">NEET</span>
+                <span class="tag">Foundation</span>
+              </div>
+              <button class="btn-view-details">View Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="institute-card">
+            <div class="institute-image">
+              <i class="fas fa-laptop-code"></i>
+              <span class="institute-badge">Top Rated</span>
+            </div>
+            <div class="institute-content">
+              <h3 class="institute-name">NareshIT</h3>
+              <p class="institute-location">
+                <i class="fas fa-map-marker-alt"></i> Ameerpet, Hyderabad
+              </p>
+              <div class="institute-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.7 (1.8k reviews)</span>
+              </div>
+              <div class="institute-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Python</span>
+                <span class="tag">AWS</span>
+              </div>
+              <button class="btn-view-details">View Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="institute-card">
+            <div class="institute-image">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span class="institute-badge">Popular</span>
+            </div>
+            <div class="institute-content">
+              <h3 class="institute-name">FIITJEE</h3>
+              <p class="institute-location">
+                <i class="fas fa-map-marker-alt"></i> Kukatpally, Hyderabad
+              </p>
+              <div class="institute-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.9 (3.2k reviews)</span>
+              </div>
+              <div class="institute-tags">
+                <span class="tag">IIT-JEE</span>
+                <span class="tag">Advanced</span>
+                <span class="tag">Mains</span>
+              </div>
+              <button class="btn-view-details">View Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Institutes</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="stat-item">
+            <div class="stat-number">1000+</div>
+            <div class="stat-label">Courses</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="stat-item">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Students</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="stat-item">
+            <div class="stat-number">15K+</div>
+            <div class="stat-label">Reviews</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="footer-title">
+            <i class="fas fa-graduation-cap"></i> EduHyd
+          </h3>
+          <p>Your one-stop destination to find the best institutes in Hyderabad for all your learning needs.</p>
+        </div>
+        <div class="col-md-2">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Institutes</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4 class="footer-title">Categories</h4>
+          <ul class="footer-links">
+            <li><a href="#">IT & Software</a></li>
+            <li><a href="#">Medical</a></li>
+            <li><a href="#">Engineering</a></li>
+            <li><a href="#">Languages</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4 class="footer-title">Contact Us</h4>
+          <ul class="footer-links">
+            <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+            <li><i class="fas fa-envelope"></i> info@eduhyd.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EduHyd. All rights reserved. | Privacy Policy | Terms of Service</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
