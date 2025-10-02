@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses - EduHub</title>
+    <link rel="stylesheet" href="courses_page.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">EduHub</div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="./courses_page.html" class="active">Courses</a></li>
+                <li><a href="./institues_page.html">Institutes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Explore Our Courses</h1>
+        <p>Transform your career with industry-leading programs</p>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <div class="filter-container">
+            <h2>Filter by Category</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="technology">Technology</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="data-science">Data Science</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Courses Grid -->
+        <div class="courses-grid">
+            <!-- Course 1 -->
+            <div class="course-card" data-category="technology">
+                <div class="course-image">💻</div>
+                <div class="course-content">
+                    <span class="course-category">Technology</span>
+                    <h3>Full Stack Web Development</h3>
+                    <p>Master modern web development with React, Node.js, MongoDB, and more. Build real-world projects from scratch.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 6 Months</span>
+                        <span class="level">📊 Intermediate</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹45,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course-card" data-category="data-science">
+                <div class="course-image">📊</div>
+                <div class="course-content">
+                    <span class="course-category">Data Science</span>
+                    <h3>Data Science & Machine Learning</h3>
+                    <p>Learn Python, ML algorithms, deep learning, and data visualization to become a data scientist.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 8 Months</span>
+                        <span class="level">📊 Advanced</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹55,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course-card" data-category="design">
+                <div class="course-image">🎨</div>
+                <div class="course-content">
+                    <span class="course-category">Design</span>
+                    <h3>UI/UX Design Masterclass</h3>
+                    <p>Create stunning user interfaces and experiences using Figma, Adobe XD, and design thinking principles.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 4 Months</span>
+                        <span class="level">📊 Beginner</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹35,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="course-card" data-category="business">
+                <div class="course-image">💼</div>
+                <div class="course-content">
+                    <span class="course-category">Business</span>
+                    <h3>Business Analytics & Strategy</h3>
+                    <p>Develop strategic thinking and analytical skills to drive business growth and make data-driven decisions.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 5 Months</span>
+                        <span class="level">📊 Intermediate</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹40,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="course-card" data-category="technology">
+                <div class="course-image">🔐</div>
+                <div class="course-content">
+                    <span class="course-category">Technology</span>
+                    <h3>Cybersecurity Fundamentals</h3>
+                    <p>Learn ethical hacking, network security, cryptography, and protect systems from cyber threats.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 6 Months</span>
+                        <span class="level">📊 Intermediate</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹50,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="course-card" data-category="marketing">
+                <div class="course-image">📱</div>
+                <div class="course-content">
+                    <span class="course-category">Marketing</span>
+                    <h3>Digital Marketing Mastery</h3>
+                    <p>Master SEO, social media marketing, content strategy, and Google Ads to grow businesses online.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 3 Months</span>
+                        <span class="level">📊 Beginner</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹30,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 7 -->
+            <div class="course-card" data-category="technology">
+                <div class="course-image">📱</div>
+                <div class="course-content">
+                    <span class="course-category">Technology</span>
+                    <h3>Mobile App Development</h3>
+                    <p>Build native iOS and Android apps using React Native and Flutter. Launch your apps on app stores.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 5 Months</span>
+                        <span class="level">📊 Intermediate</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹48,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 8 -->
+            <div class="course-card" data-category="data-science">
+                <div class="course-image">🤖</div>
+                <div class="course-content">
+                    <span class="course-category">Data Science</span>
+                    <h3>Artificial Intelligence & Deep Learning</h3>
+                    <p>Dive deep into neural networks, computer vision, NLP, and build intelligent AI systems.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 10 Months</span>
+                        <span class="level">📊 Advanced</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹65,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- Course 9 -->
+            <div class="course-card" data-category="business">
+                <div class="course-image">🚀</div>
+                <div class="course-content">
+                    <span class="course-category">Business</span>
+                    <h3>Product Management Excellence</h3>
+                    <p>Learn to build and launch successful products from ideation to market with Agile methodologies.</p>
+                    <div class="course-meta">
+                        <span class="duration">⏱️ 4 Months</span>
+                        <span class="level">📊 Intermediate</span>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <div class="price">₹42,000</div>
+                    <a href="#" class="enroll-btn">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 EduHub. All rights reserved.</p>
+        <p>Empowering learners worldwide</p>
+    </footer>
+   <script src="courses_page.js"></script>
+</body>
+</html>
